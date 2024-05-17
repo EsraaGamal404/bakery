@@ -1,0 +1,486 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+ /* start section container */
+  .container{
+background-image: url("images/drew-coffman-1872.jpg");
+height: 140vh;
+background-size: cover;
+  }
+.container  img{
+  width: 200px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+nav ul li {
+ display: inline-block;
+ margin: 0 19px;
+}
+nav :hover{
+  color: #8e7754;
+  transition: 0.3s all;
+}
+.Home:hover{
+color: #fff;
+}
+.dropdown-menu{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+}
+.dropdown-menu ul{
+  display: block;
+  margin: 10px;
+}
+.dropdown-menu ul li{
+  width: 150px;
+  padding: 10px;
+}
+.dropdown-menu{
+  display: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+.content{
+ text-align: center;
+ position: relative;
+ top: 30vh;
+ height: 90vh;
+}
+.content h3{
+  color: #fff;
+  letter-spacing: 3px;
+  margin-top: 80px;
+  position: relative;
+  font-size: 23px;
+  font-weight:bold ;
+}
+.content h1{
+  color: #fff;
+  letter-spacing: 3px;
+  margin-top: 15px;
+  position: relative;
+  font-size: 70px;
+  font-weight:bold;
+}
+.content p{
+  color: #fff;
+  margin-top: 15px;
+  position: relative;
+  font-size: 23px;
+  line-height: 40px;
+}
+.btn1{
+  font-size: 16px;
+  padding: 15px 28px;
+  background-color:#8e7754 ;
+  border: 2px solid transparent;
+  color: #fff;
+  font-weight: 700;
+  opacity: 1;
+  border-radius: 4px;
+  margin-top: 33px;
+}
+.btn1:hover{
+  background-color: #fff;
+  color: #000;
+  transition:  0.54s ease;
+  cursor: pointer;
+}
+.btn2{
+  font-size: 16px;
+  padding: 15px 28px;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #fff;
+  background-color: transparent;
+  font-weight: 700;
+  opacity: 1;
+  border-radius: 4px;
+  margin-top: 33px;
+  font-size: 16px;
+  position: relative;
+  left: 2vh;
+}
+.btn2:hover{
+  background-color: #fff;
+  color: #000;
+  transition:  0.54s ease;
+}
+ .veented-slider-scroll-button-holder{
+position: absolute;
+left: 0;
+right: 0;
+bottom: 40px;
+text-align: center;
+z-index: 4;
+ }
+.veented-slider-scroll-button-holder a{
+display: inline-block;
+border:2px solid rgba(255,255,255,0.7) ;
+color: #fff;
+width: 32px;
+height: 50px;
+border-radius: 24px;
+text-indent: -9999px;
+position: relative;
+cursor: pointer;
+}
+.vntd-mouse-dot{
+  width: 8px;
+  height: 8px;
+  background:rgba(255, 255, 255, 0.9) ;
+  position: absolute;
+  border-radius: 10px;
+  left: 10px;
+  top: 6px;
+}
+/*end section container */
+
+/* start section who are you */
+.who {
+display: flex;
+justify-content: space-between;
+align-items: center;
+overflow-y: hidden;
+}
+.who img{
+  width: 75%;
+  margin: 70px 60px;
+}
+.who h2{
+  font-size:32px ;
+  font-family:"Alegreya" ;
+  font-weight: 400;
+  line-height:1.38em ;
+  margin-bottom: 25px;
+  color:#303030 ;
+}
+.who p{
+  font-family:"Alegreya Sans" ;
+  font-size: 17px;
+  width: 800px;
+  color:#686868 ;
+  font-weight: 400;
+}
+span{
+  display: inline-block;
+  font-family:"Alegreya Sans" ;
+  font-size: 17px;
+  color:#686868 ;
+  font-weight: 400;
+  line-height:1.30em ;
+  margin: 18px 5px;
+}
+.soso{
+  width: 44px;
+  height: 44px;
+  border-radius: 80%;
+  border: 1px solid rgba(0,0,0,.15);
+  position: relative;
+  top: 2vh;
+}
+/*end section who aer you */
+
+/* start section location */
+.location{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+overflow-y: hidden;
+background-color:#f8f8f8 ;
+}
+.about h1{
+  font-family: "Alegreya";
+  font-size: 32px;
+  color: #303030;
+  line-height:1.38em ;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.about p{
+  font-family:"Alegreya Sans" ;
+  font-size: 17px;
+  width: 800px ;
+  color:#686868 ;
+  font-weight: 400;
+  line-height:1.86em ;
+  font-weight: 400;
+}
+.location img{
+  width: 60%;
+  margin: 60px 60px;
+}
+.about{
+  padding: 50px;
+}
+.text{
+  position: relative;
+  top: 5vh;
+  line-height:1.86em ;
+  font-weight: 400;
+}
+/* end section location */
+
+/* start section Baking */
+
+.typs h3{
+  font-family:"Alegreya" ;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+.typs p{
+  font-size: 17px;
+    color: #888;
+    margin: 17px auto 0;
+    text-align: center;
+    font-weight: 400;
+    padding: 10px;
+}
+.section1 img{
+width: 90%;
+}
+.section1 h4{
+  font-weight: 400;
+  text-align: center;
+  font-size: 22px;
+  color: #303030;
+  margin-bottom: 0;
+  padding: 10px;
+  position: relative;
+  top: 2vh;
+}
+.section1{
+  width: calc((100% - 80px) / 3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+.section1 p{
+  font-size: 17px;
+  color: #888;
+  text-align: center;
+  font-weight: 400;
+  line-height:1.86em ;
+}
+.Baking{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  
+}
+/* end section Baking */
+
+/*start section contact */
+.contact{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+background-color:#f8f8f8;
+}
+.inform h2{ 
+font-family:"Alegreya" ;
+font-weight: 400;
+font-size: 32px;
+margin-bottom: 25px;
+color:#303030 ;
+line-height:1.38em ;
+}
+.inform p{
+  color:#686868 ;
+  font-size: 17px;
+  font-family:"Alegreya Sans" ;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height:1.38em ;
+}
+.inform h4 {
+  color:#686868 ;
+  font-size: 17px;
+  font-family:"Alegreya Sans" ;
+  font-weight: 400;
+  line-height:1.38em ;
+  position: relative;
+  top: 4vh;
+}
+.cricle{
+  width: 35px;
+  height: 35px;
+  border-radius: 80%;
+  border: 1px solid #8e7754;
+  background-color: #8e7754;
+}
+.for{
+  position: relative;
+  top: 3vh;
+}
+ .inform{
+  overflow-y: hidden;
+  padding: 50px;
+ }
+ /* end section contact */
+
+/* start section about us */
+.para{
+  background-color:#403d38 ;
+  padding: 25px ;
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ margin: auto;
+  
+}
+.gab h3{
+color: #fff;
+padding: 15px;
+}
+.gab p{
+  color:#888;
+  font-size: 17px;
+  font-family:"Alegreya Sans" ;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height:1.38em ;
+  padding: 15px;
+}
+.hr{
+  width: 40vh;
+  background-color: #686868;
+  height: 1px;
+}
+.para h4{
+  color: #fff;
+  font-size: 20px;
+}
+.special span{
+ display:block;
+}
+.map{
+  background-image: url(images/contact-details-map.png);
+  background-size: cover;
+  height: 20vh;
+  width: 60vh;
+}
+.hours span{
+  display: block;
+}
+.special h3{
+  color: #fff;
+  padding: 15px;
+}
+.special p{
+  color:#888;
+  font-size: 17px;
+  font-family:"Alegreya Sans" ;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height:1.38em ;
+  padding: 15px;
+}
+.hours h3{
+  color: #fff;
+  padding: 15px;
+}
+.hours{
+  color:#888;
+  font-size: 17px;
+  font-family:"Alegreya Sans" ;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height:1.38em ;
+  padding: 15px;
+}
+.map{
+  height: 57vh;
+}
+.map a{
+  color: #888;
+  text-decoration: none;
+}
+.map a:hover{
+  color: #fff;
+  transition: 1s ease;
+}
+.special{
+position: relative;
+bottom: 3vh;
+}
+.gab{
+  position: relative;
+bottom: 6vh;
+}
+/* end section para */
+
+/* start section footer */
+.footer{
+  background-color:#353330 ;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer p{
+  color:#888;
+  font-size: 14px;
+  font-family:"Alegreya Sans" ;
+  font-weight: 400;
+  padding: 16px;
+  margin: 23px;
+}
+.vntd-social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  color: #535353;
+  text-align: center;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  background: rgba(0, 0, 0, 0.08);
+  transition: color .3s, background-color .3s, border-color .3s;
+  overflow: hidden;
+  position: relative;
+  background-color:#484540 ;
+  color:#8c8a86 ;
+
+}
+.social-icons-circle a {
+  border-radius: 100%;
+  
+}
+.fa {
+  font: normal normal normal 14px / 1 FontAwesome;
+  font-size: inherit;
+
+}
+.fa {
+  color: #686868;
+}
+@media (max-width:340px) {
+  body{
+    width: 100%;
+  }
+}
